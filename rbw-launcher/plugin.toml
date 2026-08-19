@@ -1,7 +1,6 @@
 id = "vinnyduke/rbw-launcher"
 name = "Bitwarden"
-version = "1.0.0"
-min_noctalia = "5.0.0"
+version = "1.0.1"
 author = "vinnyduke"
 license = "MIT"
 dependencies = []
@@ -14,7 +13,7 @@ plugin_api = 3
 id = "search"
 entry = "launcher.luau"
 glyph = "key"
-prefix = "/rbw"
+prefix = "rbw"
 
 [[launcher_provider.category]]
 label = "Bitwarden"
